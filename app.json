@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "enablePullDownRefresh":"true",
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "这就是导航的title",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#ededed"
+  },
+  "tabBar":{
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text": "首页"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "日志"
+    }]    
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+
+  },
+  "debug": true
+}
