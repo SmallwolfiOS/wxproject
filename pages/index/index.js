@@ -34,6 +34,16 @@ Page({
       },
       success: function (res) {
         console.log(res.data)
+        wx.showToast({
+          title: '请求成功',
+          icon: '',
+          image: '',
+          duration: 0,
+          mask: true,
+          success: function(res) {},
+          fail: function(res) {},
+          complete: function(res) {},
+        })
       }
     })
   },
