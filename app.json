@@ -1,29 +1,36 @@
 {
-  "pages":[
+  "pages": [
+    "pages/logs/logs",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/first/first"
   ],
-  "window":{
-    "enablePullDownRefresh":"true",
-    "backgroundTextStyle":"dark",
+  "window": {
+    "enablePullDownRefresh": "true",
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#000",
     "navigationBarTitleText": "这就是导航的title",
-    "navigationBarTextStyle":"white",
+    "navigationBarTextStyle": "white",
     "backgroundColor": "#ededed"
   },
-  "tabBar":{
-    "list":[{
-      "pagePath":"pages/index/index",
-      "text": "首页"
-    },{
-      "pagePath": "pages/logs/logs",
-      "text": "日志"
-    }]    
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "被调换的首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "日志"
+      },
+      {
+        "pagePath": "pages/first/first",
+        "text": "first"
+      }
+    ]
   },
   "networkTimeout": {
     "request": 10000,
     "downloadFile": 10000
-
   },
   "debug": true
 }

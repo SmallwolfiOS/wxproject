@@ -1,0 +1,8 @@
+/* first.wxss */
+.footView{
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  background-color: red;
+
+}

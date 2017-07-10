@@ -1,0 +1,6 @@
+<!--first.wxml-->
+
+
+<view class="footView">
+<text>first.wxml</text> 
+</view>
